@@ -24,14 +24,12 @@ When a notebook is released, its page in [`notebooks/`](notebooks/) will include
 - [`case2-starters/`](case2-starters/) — optional technical launchpads for Case 2
 - [`data/`](data/) — documentation for data that may be safely distributed here
 
-## Important boundaries
+## Course work
 
 - Do not submit graded work through this public repository unless Canvas explicitly tells you to do so.
-- Do not post passwords, API keys, confidential information, student records, or license-restricted data.
 - Case 2 team repositories will be private unless a team later chooses to publish its work after grading and everyone on the team agrees.
-- Public GitHub history is permanent enough that you should treat every commit as publishable.
 
-Questions about the course should go through the channels identified in Canvas. Private or security-sensitive matters should not be posted publicly on GitHub.
+Questions about the course should go through the channels identified in Canvas.
 
 ## Status
 

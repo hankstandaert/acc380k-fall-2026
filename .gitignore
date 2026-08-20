@@ -19,7 +19,7 @@ venv/
 credentials*.json
 secrets*.json
 
-# Never publish instructor, solution, review, or student-submission material
+# Local-only course-development files
 *_Instructor.ipynb
 **/guides/
 **/solutions/
