@@ -21,7 +21,6 @@ When a notebook is released, its page in [`notebooks/`](notebooks/) will include
 ## Repository map
 
 - [`notebooks/`](notebooks/) — released student notebooks and opening instructions
-- [`case2-starters/`](case2-starters/) — optional technical launchpads for Case 2
 - [`data/`](data/) — documentation for data that may be safely distributed here
 
 ## Course work
