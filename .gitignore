@@ -15,8 +15,18 @@ venv/
 .env.*
 !.env.example
 *.key
+*.pem
 credentials*.json
 secrets*.json
+
+# Never publish instructor, solution, review, or student-submission material
+*_Instructor.ipynb
+**/guides/
+**/solutions/
+**/instructor/
+review/
+sources/
+*student*submission*
 
 # Data and generated output are excluded by default. Add reviewed files explicitly.
 data/*
