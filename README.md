@@ -20,6 +20,7 @@ When a notebook is released, its page in [`notebooks/`](notebooks/) will include
 
 ## Repository map
 
+- [`SYLLABUS.md`](SYLLABUS.md) — version-tracked Markdown copy of the Fall 2026 syllabus
 - [`notebooks/`](notebooks/) — released student notebooks and opening instructions
 - [`data/`](data/) — documentation for data that may be safely distributed here
 
