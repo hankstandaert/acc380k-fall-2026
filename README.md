@@ -12,7 +12,8 @@ This syllabus is maintained in the course repository so that changes can be trac
 **Office hours:** Tuesday and Thursday, 3:30–5:00 p.m. [Book a 30-minute appointment](https://calendar.app.google/yuRCYe64PvvmBhSN6) at least two hours in advance; this is the preferred way to guarantee availability. Scheduled appointments take priority, but walk-ins are welcome when I am in the office and no scheduled appointment is in progress or about to begin. I usually expect to be there throughout the office-hours window, but if no appointments are booked, I may occasionally be away.
 
 **Teaching Assistant:** Joanna G. Smith — [joanna.smith@utexas.edu](mailto:joanna.smith@utexas.edu)<br>
-Joanna’s office hours are by appointment; booking information will be posted in Canvas.
+Joanna’s office hours are by appointment and can be booked directly on [Google Calendar](https://calendar.app.google/5a2iouwypKBxqXvM6). If none of the posted times work with your class schedule, feel free to reach out.<br>
+In preparation for the exam on October 22nd, Joanna will be hosting open office hours on Wednesday, Oct 21 from 3:30–6:30pm in the CBA Atrium. No appointment will be needed.
 
 ## Course Meeting Details
 
