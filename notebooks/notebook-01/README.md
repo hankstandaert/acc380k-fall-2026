@@ -4,12 +4,12 @@ Start from **Starter** or from your own as-yet unedited copy. The section notebo
 
 ## Starter
 
-[![Open Starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/starter.ipynb)
+[![Open Starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://njhallman.github.io/acc380k-fall-2026/open-colab.html?path=notebooks%2Fnotebook-01%2Fstarter.ipynb)
 
 ## 12:30 Section
 
-[![Open 12:30 Section in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/12-30-section.ipynb)
+[![Open 12:30 Section in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://njhallman.github.io/acc380k-fall-2026/open-colab.html?path=notebooks%2Fnotebook-01%2F12-30-section.ipynb)
 
 ## 2:00 Section
 
-[![Open 2:00 Section in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/2-00-section.ipynb)
+[![Open 2:00 Section in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://njhallman.github.io/acc380k-fall-2026/open-colab.html?path=notebooks%2Fnotebook-01%2F2-00-section.ipynb)

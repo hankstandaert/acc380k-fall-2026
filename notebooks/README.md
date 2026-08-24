@@ -6,10 +6,10 @@ At the beginning of class, start from **Starter** or from your own as-yet unedit
 
 | Version | GitHub | Open in Colab |
 |---|---|---|
-| Starter | [View notebook](notebook-01/starter.ipynb) | [![Open Starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/starter.ipynb) |
-| 12:30 Section | [View class record](notebook-01/12-30-section.ipynb) | [![Open 12:30 Section in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/12-30-section.ipynb) |
-| 2:00 Section | [View class record](notebook-01/2-00-section.ipynb) | [![Open 2:00 Section in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/2-00-section.ipynb) |
+| Starter | [View notebook](notebook-01/starter.ipynb) | [![Open Starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://njhallman.github.io/acc380k-fall-2026/open-colab.html?path=notebooks%2Fnotebook-01%2Fstarter.ipynb) |
+| 12:30 Section | [View class record](notebook-01/12-30-section.ipynb) | [![Open 12:30 Section in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://njhallman.github.io/acc380k-fall-2026/open-colab.html?path=notebooks%2Fnotebook-01%2F12-30-section.ipynb) |
+| 2:00 Section | [View class record](notebook-01/2-00-section.ipynb) | [![Open 2:00 Section in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://njhallman.github.io/acc380k-fall-2026/open-colab.html?path=notebooks%2Fnotebook-01%2F2-00-section.ipynb) |
 
-GitHub stores the public notebook history; Colab runs the code. Opening a notebook from GitHub does not automatically synchronize later edits. Use **File → Save a copy in Drive** when you want your own working copy.
+GitHub stores the public notebook history; Colab runs the code. Each Colab button requests a fresh copy of the corresponding GitHub file. Use **File → Save a copy in Drive** when you want your own working copy.
 
 Until a notebook is listed here and assigned in Canvas, it is not required course work.
