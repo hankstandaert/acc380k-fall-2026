@@ -25,14 +25,37 @@
       const path = params.get("path") || "";
       const allowedPath = /^notebooks\/notebook-\d+\/(starter|12-30-section|2-00-section)\.ipynb$/;
 
+      async function openLatestNotebook(notebookPath) {
+        const api = new URL("https://api.github.com/repos/njhallman/acc380k-fall-2026/commits");
+        api.searchParams.set("sha", "main");
+        api.searchParams.set("path", notebookPath);
+        api.searchParams.set("per_page", "1");
+
+        try {
+          const response = await fetch(api, { cache: "no-store" });
+          if (!response.ok) throw new Error(`GitHub returned ${response.status}`);
+
+          const commits = await response.json();
+          const commit = commits[0]?.sha;
+          if (!commit) throw new Error("No notebook commit was found");
+
+          const target = new URL(
+            `https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/${commit}/${notebookPath}`
+          );
+          window.location.replace(target.toString());
+        } catch (error) {
+          const target = new URL(
+            `https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/${notebookPath}`
+          );
+          target.searchParams.set("refresh", Date.now().toString());
+          window.location.replace(target.toString());
+        }
+      }
+
       if (!allowedPath.test(path)) {
         document.querySelector("#status").textContent = "This notebook link is not valid.";
       } else {
-        const target = new URL(
-          `https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/${path}`
-        );
-        target.searchParams.set("refresh", Date.now().toString());
-        window.location.replace(target.toString());
+        openLatestNotebook(path);
       }
     </script>
     <noscript>JavaScript is required to request the latest notebook version.</noscript>
