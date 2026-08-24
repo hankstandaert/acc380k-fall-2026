@@ -6,9 +6,9 @@ At the beginning of class, start from **Starter** or from your own as-yet unedit
 
 | Version | GitHub | Open in Colab |
 |---|---|---|
-| Starter | [View notebook](notebook-01/starter.ipynb) | [Open Starter in Colab](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/starter.ipynb) |
-| 12:30 Section | [View class record](notebook-01/12-30-section.ipynb) | [Open 12:30 Section in Colab](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/12-30-section.ipynb) |
-| 2:00 Section | [View class record](notebook-01/2-00-section.ipynb) | [Open 2:00 Section in Colab](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/2-00-section.ipynb) |
+| Starter | [View notebook](notebook-01/starter.ipynb) | [![Open Starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/starter.ipynb) |
+| 12:30 Section | [View class record](notebook-01/12-30-section.ipynb) | [![Open 12:30 Section in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/12-30-section.ipynb) |
+| 2:00 Section | [View class record](notebook-01/2-00-section.ipynb) | [![Open 2:00 Section in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/notebooks/notebook-01/2-00-section.ipynb) |
 
 GitHub stores the public notebook history; Colab runs the code. Opening a notebook from GitHub does not automatically synchronize later edits. Use **File → Save a copy in Drive** when you want your own working copy.
 
