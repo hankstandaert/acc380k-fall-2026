@@ -8,4 +8,3 @@ At the beginning of class, start from **Starter** or from your own as-yet unedit
 
 GitHub stores the public notebook history; Colab runs the code. Each button opens the latest saved version of that notebook. The links refresh automatically after Nick saves a section notebook to GitHub. Use **File → Save a copy in Drive** when you want your own working copy.
 
-Until a notebook is listed here and assigned in Canvas, it is not required course work.
