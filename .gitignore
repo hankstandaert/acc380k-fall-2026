@@ -41,3 +41,5 @@ tmp/
 *.gz
 *.pdf
 *.html
+!docs/
+!docs/*.html

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Opening Colab…</title>
+    <style>
+      body {
+        margin: 3rem auto;
+        max-width: 42rem;
+        padding: 0 1.25rem;
+        color: #333f48;
+        font: 1.1rem/1.5 system-ui, sans-serif;
+      }
+      h1 { color: #bf5700; }
+      code { overflow-wrap: anywhere; }
+    </style>
+  </head>
+  <body>
+    <h1>Opening the latest notebook in Colab…</h1>
+    <p id="status">One moment while we request a fresh copy from GitHub.</p>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const path = params.get("path") || "";
+      const allowedPath = /^notebooks\/notebook-\d+\/(starter|12-30-section|2-00-section)\.ipynb$/;
+
+      if (!allowedPath.test(path)) {
+        document.querySelector("#status").textContent = "This notebook link is not valid.";
+      } else {
+        const target = new URL(
+          `https://colab.research.google.com/github/njhallman/acc380k-fall-2026/blob/main/${path}`
+        );
+        target.searchParams.set("refresh", Date.now().toString());
+        window.location.replace(target.toString());
+      }
+    </script>
+    <noscript>JavaScript is required to request the latest notebook version.</noscript>
+  </body>
+</html>
